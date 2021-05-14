@@ -1,6 +1,7 @@
 <?php
 echo 'it works!';
-phpinfo();
-echo $_SERVER['BASEURL'];
 echo '<br>';
-echo $_SERVER['DBNAME'];
+//phpinfo();
+echo 'BASEURL---'.$_ENV['BASEURL'];
+echo '<br>';
+echo 'APPSETTING_BASEURL---'.$_ENV['APPSETTING_BASEURL'];
