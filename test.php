@@ -1,3 +1,6 @@
 <?php
 echo 'it works!';
-print_r($_SERVER);
+phpinfo();
+echo $_SERVER['BASEURL'];
+echo '<br>';
+echo $_SERVER['DBNAME'];
