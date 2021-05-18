@@ -12,3 +12,5 @@ echo 'ENV Var';
 echo 'ENVBASEURL--'.env('BASEURL');
 echo '<br>';
 echo 'ENVDBNAME--'.env('MYSQLCONNSTR_DBNAME');
+echo '<br>';
+echo 'GETENVBASEURL--'.getenv('BASEURL');
